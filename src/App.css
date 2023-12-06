@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(224, 245, 232);
+  /* background-color: rgb(236, 242, 239); */
   border: 2px solid black;
   height: 1000px;
   width: 500px;
@@ -8,7 +8,7 @@ body {
 }
 .title {
   color: white;
-  background-color: green;
+  background-color: lightslategray;
   margin-top: auto;
   text-align: center;
   
@@ -20,9 +20,10 @@ body {
   bottom: 0;
   position: fixed;
   width: 500px;
-  grid-template-columns: auto auto;
-  grid-template-rows: 2;
-  background-color: green;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 3;
+  background-color: lightslategray;
+  text-align: center;
 }
 .navbar a {
   color: white;
