@@ -1,0 +1,29 @@
+
+body {
+  background-color: rgb(224, 245, 232);
+  border: 2px solid black;
+  height: 1000px;
+  width: 500px;
+  margin: auto;
+}
+.title {
+  color: white;
+  background-color: green;
+  margin-top: auto;
+  text-align: center;
+  
+  
+}
+.navbar {
+  color: white;
+  display: grid;
+  bottom: 0;
+  position: fixed;
+  width: 500px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 2;
+  background-color: green;
+}
+.navbar a {
+  color: white;
+}
